@@ -11,6 +11,16 @@
 - Docker Support
 - Unit Tested
 
+## Database
+
+The project uses SQLAlchemy as its ORM.
+
+By default the application is configured to use SQLite:
+
+DATABASE_URL=sqlite:///./notifications.db
+
+To switch to PostgreSQL or MySQL, update the DATABASE_URL and install the corresponding database driver. No application code changes are required.
+
 ## Run Locally
 
 pip install -r requirements.txt \
