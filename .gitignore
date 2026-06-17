@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Database
+*.db
+notifications.db
+test.db
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# MyPy / Ruff / Type Checkers (future-proof)
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
